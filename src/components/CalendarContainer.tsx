@@ -9,7 +9,7 @@ const CalendarContainer: React.FC<ChildrenComponentProps> = ({
     <div
       className={`absolute top-full px-8 py-4 w-"${width}" h-[${height}px] rounded-md shadow-md flex justify-center`}
     >
-      <div className="w-68 sm:w-80 h-96 mt-4">{children}</div>
+      <div className="w-68 sm:w-80 mt-4">{children}</div>
     </div>
   );
 };

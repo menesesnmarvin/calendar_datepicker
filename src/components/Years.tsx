@@ -9,8 +9,10 @@ const Years: React.FC<yearsProps> = ({ today, setToday, setShowCalendar }) => {
   const [currentYear, setCurrentYear] = useState<number>(dayjs().year());
 
   const handleNext = () => {
-    setCurrentYear(currentYear + 12);
-    setToday(today.month(today.month() + 1));
+    if (currentYear !== dayjs().year()) {
+      setCurrentYear(currentYear + 12);
+      setToday(today.month(today.month() + 1));
+    }
   };
 
   const handlePrevious = () => {
@@ -49,7 +51,7 @@ const Years: React.FC<yearsProps> = ({ today, setToday, setShowCalendar }) => {
       <DatePickerNavigation
         handlePrevious={handlePrevious}
         handleNext={handleNext}
-        Date={`${currentYear} - ${currentYear + 11}`}
+        Date={`${currentYear - 11} - ${currentYear}`}
       />
 
       <div className=" grid grid-cols-4 gap-6 mt-8">{renderYears()}</div>
