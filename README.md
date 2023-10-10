@@ -1,27 +1,59 @@
-# React + TypeScript + Vite
+# Calendar Datepicker Using Vite, TypeScript, and Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple calendar datepicker implemented using Vite, TypeScript, and Tailwind CSS. It allows users to select dates from a calendar interface.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you can build and run this project, make sure you have the following tools installed on your system:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (v7 or higher) or [Yarn](https://yarnpkg.com/) (v2 or higher)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow these steps to build and run the calendar datepicker:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone the repository to your local machine:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/yourusername/calendar-datepicker.git
+
+   ```
+
+2. Navigate to the project directory:
+
+   cd calendar-datepicker
+
+3. Install the project dependencies using npm or Yarn:
+
+   # If using npm
+
+   npm install
+
+   # If using Yarn
+
+   yarn install
+
+4. Start the development server:
+
+   # If using npm
+
+   npm run dev
+
+   # If using Yarn
+
+   yarn dev
+
+# Building for Production
+
+To build the project for production, use the following command:
+
+# If using npm
+
+npm run build
+
+# If using Yarn
+
+yarn build
+
+This will generate optimized production-ready files in the dist directory.
