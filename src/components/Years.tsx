@@ -31,7 +31,7 @@ const Years: React.FC<yearsProps> = ({ today, setToday, setShowCalendar }) => {
 
   const renderYears = () => {
     const years = [];
-    for (let i = currentYear; i < currentYear + 12; i++) {
+    for (let i = currentYear - 12; i < currentYear; i++) {
       years.push(i);
     }
 
