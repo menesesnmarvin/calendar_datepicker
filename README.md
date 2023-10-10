@@ -16,7 +16,7 @@ Follow these steps to build and run the calendar datepicker:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/calendar-datepicker.git
+   git clone https://github.com/menesesnmarvin/calendar-datepicker.git
 
    ```
 
@@ -26,28 +26,34 @@ Follow these steps to build and run the calendar datepicker:
 
 3. Install the project dependencies using npm or Yarn:
 
-   - If using npm
-     npm install
+   # If using npm
 
-   - If using Yarn
-     yarn install
+   npm install
+
+   # If using Yarn
+
+   yarn install
 
 4. Start the development server:
 
-   - If using npm
-     npm run dev
+   # If using npm
 
-   - If using Yarn
-     yarn dev
+   npm run dev
+
+   # If using Yarn
+
+   yarn dev
 
 # Building for Production
 
 To build the project for production, use the following command:
 
-- If using npm
-  npm run build
+# If using npm
 
-- If using Yarn
-  yarn build
+npm run build
+
+# If using Yarn
+
+yarn build
 
 This will generate optimized production-ready files in the dist directory.
