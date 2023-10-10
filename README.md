@@ -2,6 +2,10 @@
 
 This project is a simple calendar datepicker implemented using Vite, TypeScript, and Tailwind CSS. It allows users to select dates from a calendar interface.
 
+# Demo Link
+
+https://calendar-datepicker-one.vercel.app/
+
 ## Prerequisites
 
 Before you can build and run this project, make sure you have the following tools installed on your system:
@@ -22,38 +26,42 @@ Follow these steps to build and run the calendar datepicker:
 
 2. Navigate to the project directory:
 
-   cd calendar-datepicker
+```sh
+cd calendar-datepicker
+```
 
 3. Install the project dependencies using npm or Yarn:
 
-   If using npm
+```sh
+npm install
+```
 
-   # npm install
+or
 
-   If using Yarn
+```sh
+yarn install
+```
 
-   # yarn install
+### Compile and Hot-Reload for Development
 
-4. Start the development server:
+```sh
+npm run dev
+```
 
-   If using npm
+or
 
-   # npm run dev
+```sh
+yarn run dev
+```
 
-   If using Yarn
+### Type-Check, Compile and Minify for Production
 
-   # yarn dev
+```sh
+npm run build
+```
 
-# Building for Production
+or
 
-To build the project for production, use the following command:
-
-If using npm
-
-# npm run build
-
-If using Yarn
-
-# yarn build
-
-This will generate optimized production-ready files in the dist directory.
+```sh
+yarn
+```
