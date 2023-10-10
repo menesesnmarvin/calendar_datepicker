@@ -26,34 +26,34 @@ Follow these steps to build and run the calendar datepicker:
 
 3. Install the project dependencies using npm or Yarn:
 
-   # If using npm
+   If using npm
 
-   npm install
+   # npm install
 
-   # If using Yarn
+   If using Yarn
 
-   yarn install
+   # yarn install
 
 4. Start the development server:
 
-   # If using npm
+   If using npm
 
-   npm run dev
+   # npm run dev
 
-   # If using Yarn
+   If using Yarn
 
-   yarn dev
+   # yarn dev
 
 # Building for Production
 
 To build the project for production, use the following command:
 
-# If using npm
+If using npm
 
-npm run build
+# npm run build
 
-# If using Yarn
+If using Yarn
 
-yarn build
+# yarn build
 
 This will generate optimized production-ready files in the dist directory.
